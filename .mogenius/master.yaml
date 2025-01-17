@@ -1,0 +1,63 @@
+serviceType: Deployment
+displayName: Lovely
+dockerfileName: Dockerfile
+dockerContext: .
+k8sSettings:
+  limitCpuCores: 2
+  limitMemoryMB: 1000
+  ephemeralStorageMB: 1000
+  replicaCount: 1
+  deploymentStrategy: recreate
+  imagePullPolicy: Always
+envVars:
+  - id: 0699a59b-0376-43bb-8918-4923111a91f2
+    name: LOG_GROUP_ID
+    data:
+      type: PLAINTEXT
+      value: "-1001673510300"
+    value: "-1001673510300"
+    type: PLAINTEXT
+  - id: 20721bd6-660c-4903-bbfc-fbed456ff4fd
+    name: OWNER_ID
+    data:
+      type: PLAINTEXT
+      value: "6465560608"
+    value: "6465560608"
+    type: PLAINTEXT
+  - id: 20ea6bc1-c00e-4286-8abe-8e6e0635ebe8
+    name: API_HASH
+    data:
+      type: PLAINTEXT
+      value: 00d66b5cd844ae8a6a446cc8b827b817
+    value: 00d66b5cd844ae8a6a446cc8b827b817
+    type: PLAINTEXT
+  - id: 24f87576-9ce8-4111-a105-396498912ebc
+    name: API_ID
+    data:
+      type: PLAINTEXT
+      value: "14828605"
+    value: "14828605"
+    type: PLAINTEXT
+  - id: 4f08ebf8-4a07-42a3-b1ca-41d8fb92d70a
+    name: STRING_SESSION
+    data:
+      type: PLAINTEXT
+      value: BQDiRD0AR9wRFhCUtU1_XbUZNyoGsRry63kJlJCZADB4iSNb9qrda2PDFcdOk84YK8qnm05H3fuC4x3-9v82xz92QfAFdh2126O_U-TaXeUTjDFCFsfq2En_9T392C_H3-eZHaQiyFRNIARky6GT0tFzSFJ3-45ma0kfAL_htAlgrWSx-jET2H0JV3Vttjc7jsWKOpPs9Nzk1IQMBNEIsEcJtMdZZWbMBwkQr9jxI8YRVig1brghi7zO_kO67-lyA2vpypwy-KYXHJLPpsEkwNevK2iQMByy1xU7U2xC8buB3FFdIxJXLwP9auynlpdnvrPk9XtoXfiYCqIh8uMvQda8kCJgAAAAGBYKAgAA
+    value: BQDiRD0AR9wRFhCUtU1_XbUZNyoGsRry63kJlJCZADB4iSNb9qrda2PDFcdOk84YK8qnm05H3fuC4x3-9v82xz92QfAFdh2126O_U-TaXeUTjDFCFsfq2En_9T392C_H3-eZHaQiyFRNIARky6GT0tFzSFJ3-45ma0kfAL_htAlgrWSx-jET2H0JV3Vttjc7jsWKOpPs9Nzk1IQMBNEIsEcJtMdZZWbMBwkQr9jxI8YRVig1brghi7zO_kO67-lyA2vpypwy-KYXHJLPpsEkwNevK2iQMByy1xU7U2xC8buB3FFdIxJXLwP9auynlpdnvrPk9XtoXfiYCqIh8uMvQda8kCJgAAAAGBYKAgAA
+    type: PLAINTEXT
+  - id: a5b2787b-b3f7-44ac-b20b-b6e70c23c023
+    name: BOT_TOKEN
+    data:
+      type: PLAINTEXT
+      value: 7534657356:AAEvEUzyeDQivy_tEJi3HwKsyF2wor-eTw0
+    value: 7534657356:AAEvEUzyeDQivy_tEJi3HwKsyF2wor-eTw0
+    type: PLAINTEXT
+  - id: a7665391-7660-4665-b371-f61041e98732
+    name: MONGO_DB_URI
+    data:
+      type: PLAINTEXT
+      value: mongodb+srv://AbishnoiMusic:AbishnoiMusic29@cluster0.k7sfn.mongodb.net/?retryWrites=true&w=majority
+    value: mongodb+srv://AbishnoiMusic:AbishnoiMusic29@cluster0.k7sfn.mongodb.net/?retryWrites=true&w=majority
+    type: PLAINTEXT
+ports: []
+
