@@ -56,8 +56,8 @@ envVars:
     name: MONGO_DB_URI
     data:
       type: PLAINTEXT
-      value: mongodb+srv://AbishnoiMusic:AbishnoiMusic29@cluster0.k7sfn.mongodb.net/?retryWrites=true&w=majority
-    value: mongodb+srv://AbishnoiMusic:AbishnoiMusic29@cluster0.k7sfn.mongodb.net/?retryWrites=true&w=majority
+      value: mongodb+srv://jansuraajhd:<db_password>@cluster0.eddi0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+    value: mongodb+srv://jansuraajhd:<db_password>@cluster0.eddi0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
     type: PLAINTEXT
 ports: []
 
