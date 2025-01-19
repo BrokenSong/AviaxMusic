@@ -1,5 +1,5 @@
 serviceType: Deployment
-displayName: Music bot
+displayName: Musicbot
 dockerfileName: Dockerfile
 dockerContext: .
 k8sSettings:
@@ -56,8 +56,8 @@ envVars:
     name: MONGO_DB_URI
     data:
       type: PLAINTEXT
-      value: mongodb+srv://jansuraajhd:<db_password>@cluster0.eddi0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
-    value: mongodb+srv://jansuraajhd:<db_password>@cluster0.eddi0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+      value: mongodb+srv://yash:shivanshudeo@yk.6bvcjqp.mongodb.net/?retryWrites=true&w=majority&appName=yk
+    value: mongodb+srv://yash:shivanshudeo@yk.6bvcjqp.mongodb.net/?retryWrites=true&w=majority&appName=yk
     type: PLAINTEXT
 ports: []
 
